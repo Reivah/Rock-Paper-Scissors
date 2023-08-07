@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamień Papier Nożyce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/96270d5280.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="main">
+
+        <h1 class="title">Project Rock, Scissors, Paper</h1>
+        
+        <div class="result-section">
+            <h2 class="rounds">Round<span></span></h2>
+            <p class="result"></p>
+        </div>
+        </div>
+        <div class="game-section">
+            <div class="player">
+                <h2 class="player-choice">Your Choice</h2>
+                <p class="player-hand"></p>
+            </div>
+            <div class="computer">
+                <h2 class="computer-choice">Computer Choice</h2>
+                <p class="computer-hand"></p>
+            </div>
+        </div>
+
+        <div class="section-hands">
+            <p class="choice-hand">Please make a choice: rock, paper or scissors </p>
+            <i data-item="rock" class="fa-solid fa-hand-back-fist rock"></i>
+            <i data-item="paper" class="fa-solid fa-hand paper"></i>
+            <i data-item="scissors" class="fa-solid fa-hand-scissors scissors"></i>
+        </div>
+        <p class="error">Please, choose rock, paper or scissors</p>
+        <button class="play">Play</button>
+
+        <div class="scoreboard">
+            <p class="computer-score">Computer score: <span>0</span></p>
+            <p class="player-score">Player score: <span>0</span></p>
+            <p class="draw">Draw: <span>0</span></p>
+        </div>
+    </section>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
